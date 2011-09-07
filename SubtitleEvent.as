@@ -1,0 +1,1 @@
+﻿package  {	import flash.events.Event;		public dynamic class SubtitleEvent extends flash.events.Event{		public function SubtitleEvent(type:String, ident:String = ''){			super(type, true, false);			this.ident = ident;		}					}	}
